@@ -1,6 +1,7 @@
 from flask import Flask
 
-new=Flask(__name__)
+application=Flask(__name__)
+new=application
 
 @new.route('/home')
 def home():
